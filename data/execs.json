@@ -254,5 +254,197 @@
         ]
       }
     ]
+  },
+  {
+    "id": "train-a-outside",
+    "map": "Train",
+    "site": "A",
+    "nom": "Train A — Sortie outside + ivy",
+    "difficulte": "Difficile",
+    "temps": "35s",
+    "joueurs": 5,
+    "description": "Sortie A outside : smokes hell + electric, molotov olof, flashs popdog. 3 outside + 2 ivy synchro.",
+    "utilitaires": { "smoke": 3, "flash": 3, "molotov": 2, "he": 0 },
+    "etapes": ["3 outside / 2 ivy.", "Smokes hell + electric.", "Molotov olof + flashs popdog.", "Go synchro, plant electric."],
+    "images": [
+      {
+        "src": "assets/train-a-1.svg",
+        "titre": "Outside + Ivy → A",
+        "description": "Remplace par tes screens.",
+        "reperes": [
+          { "x": 32, "y": 42, "numero": 1, "titre": "Smoke Hell", "utilitaire": "smoke", "description": "Bloque hell." },
+          { "x": 60, "y": 60, "numero": 2, "titre": "Smoke Electric", "utilitaire": "smoke", "description": "Bloque electric." },
+          { "x": 50, "y": 75, "numero": 3, "titre": "Molotov Olof", "utilitaire": "molotov", "description": "Vide olof." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "train-b-upper",
+    "map": "Train",
+    "site": "B",
+    "nom": "Train B — Sortie upper + lower",
+    "difficulte": "Moyen",
+    "temps": "30s",
+    "joueurs": 5,
+    "description": "Sortie B upper : smokes upper + back site, molotov back, flashs upper. Lower en soutien.",
+    "utilitaires": { "smoke": 2, "flash": 3, "molotov": 2, "he": 1 },
+    "etapes": ["4 upper / 1 lower.", "Smokes upper + back site.", "Molotov back + flashs.", "Go, plant tête."],
+    "images": [
+      {
+        "src": "assets/train-b-1.svg",
+        "titre": "Upper + Lower → B",
+        "description": "Remplace par tes screens.",
+        "reperes": [
+          { "x": 35, "y": 42, "numero": 1, "titre": "Smoke Upper", "utilitaire": "smoke", "description": "Bloque vue upper." },
+          { "x": 60, "y": 62, "numero": 2, "titre": "Smoke Back", "utilitaire": "smoke", "description": "Bloque back site." },
+          { "x": 48, "y": 75, "numero": 3, "titre": "Molotov Back", "utilitaire": "molotov", "description": "Vide back site." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "overpass-a-long",
+    "map": "Overpass",
+    "site": "A",
+    "nom": "Overpass A — Sortie long + toilettes",
+    "difficulte": "Moyen",
+    "temps": "30s",
+    "joueurs": 5,
+    "description": "Sortie A long : smokes bank + party + CT, molotov bank, flashs long. Prise toilettes puis go.",
+    "utilitaires": { "smoke": 3, "flash": 3, "molotov": 2, "he": 0 },
+    "etapes": ["4 long / 1 mid soutien.", "Smokes bank + party + CT.", "Molotov bank + flashs.", "Go, plant bank."],
+    "images": [
+      {
+        "src": "assets/overpass-a-1.svg",
+        "titre": "Long → A",
+        "description": "Remplace par tes screens.",
+        "reperes": [
+          { "x": 62, "y": 40, "numero": 1, "titre": "Smoke Bank", "utilitaire": "smoke", "description": "Bloque bank." },
+          { "x": 40, "y": 55, "numero": 2, "titre": "Smoke Party", "utilitaire": "smoke", "description": "Bloque party." },
+          { "x": 55, "y": 72, "numero": 3, "titre": "Molotov Bank", "utilitaire": "molotov", "description": "Vide bank." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "overpass-b-monster",
+    "map": "Overpass",
+    "site": "B",
+    "nom": "Overpass B — Sortie monster + eau",
+    "difficulte": "Moyen",
+    "temps": "30s",
+    "joueurs": 5,
+    "description": "Sortie B monster : smokes heaven + CT + cross eau, molotov pillar, flashs monster. Contrôle eau d'abord.",
+    "utilitaires": { "smoke": 3, "flash": 2, "molotov": 2, "he": 1 },
+    "etapes": ["5 monster/eau.", "Smokes heaven + CT + cross.", "Molotov pillar + flashs.", "Go, plant eau."],
+    "images": [
+      {
+        "src": "assets/overpass-b-1.svg",
+        "titre": "Monster → B",
+        "description": "Remplace par tes screens.",
+        "reperes": [
+          { "x": 62, "y": 40, "numero": 1, "titre": "Smoke Heaven", "utilitaire": "smoke", "description": "Bloque heaven." },
+          { "x": 38, "y": 52, "numero": 2, "titre": "Smoke CT", "utilitaire": "smoke", "description": "Bloque CT." },
+          { "x": 50, "y": 72, "numero": 3, "titre": "Molotov Pillar", "utilitaire": "molotov", "description": "Vide pillar." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "inferno-a-split",
+    "map": "Inferno",
+    "site": "A",
+    "nom": "Inferno A — Split apparts + short",
+    "difficulte": "Moyen",
+    "temps": "30s",
+    "joueurs": 5,
+    "description": "Split A : smokes CT + biblio, molotovs pit + sandwich, flashs apparts. 3 apparts + 2 short synchro.",
+    "utilitaires": { "smoke": 2, "flash": 3, "molotov": 2, "he": 1 },
+    "etapes": ["3 apparts / 2 short.", "Smokes CT + biblio.", "Molotovs pit + sandwich.", "Flashs + go synchro, plant default."],
+    "images": [
+      {
+        "src": "assets/inferno-a-1.svg",
+        "titre": "Apparts + Short → A",
+        "description": "Remplace par tes screens.",
+        "reperes": [
+          { "x": 40, "y": 50, "numero": 1, "titre": "Smoke CT", "utilitaire": "smoke", "description": "Bloque CT." },
+          { "x": 60, "y": 42, "numero": 2, "titre": "Smoke Biblio", "utilitaire": "smoke", "description": "Bloque biblio." },
+          { "x": 52, "y": 72, "numero": 3, "titre": "Molotov Pit", "utilitaire": "molotov", "description": "Vide pit." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nuke-b-ramp",
+    "map": "Nuke",
+    "site": "B",
+    "nom": "Nuke B — Descente rampe + vents (lower)",
+    "difficulte": "Difficile",
+    "temps": "35s",
+    "joueurs": 5,
+    "description": "Descente lower : smokes rampe + back, molotov back vent, flashs rampe. 4 rampe + 1 vents.",
+    "utilitaires": { "smoke": 2, "flash": 3, "molotov": 2, "he": 0 },
+    "etapes": ["4 rampe / 1 vents.", "Smokes rampe + back.", "Molotov back vent + flashs.", "Go, plant back."],
+    "images": [
+      {
+        "src": "assets/nuke-b-1.svg",
+        "titre": "Rampe + Vents → B",
+        "description": "Remplace par tes screens.",
+        "reperes": [
+          { "x": 32, "y": 42, "numero": 1, "titre": "Smoke Rampe", "utilitaire": "smoke", "description": "Bloque vue rampe." },
+          { "x": 60, "y": 60, "numero": 2, "titre": "Smoke Back", "utilitaire": "smoke", "description": "Bloque back." },
+          { "x": 48, "y": 75, "numero": 3, "titre": "Molotov Back Vent", "utilitaire": "molotov", "description": "Vide back vent." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dust2-a-split",
+    "map": "Dust2",
+    "site": "A",
+    "nom": "Dust2 A — Split long + short",
+    "difficulte": "Moyen",
+    "temps": "30s",
+    "joueurs": 5,
+    "description": "Split A classique : smokes cross + CT + coin short, molotov goose, flashs long. 3 long + 2 short.",
+    "utilitaires": { "smoke": 3, "flash": 3, "molotov": 1, "he": 1 },
+    "etapes": ["3 long / 2 short.", "Smokes cross + CT + coin short.", "Molotov goose + flashs long.", "Go synchro, plant long."],
+    "images": [
+      {
+        "src": "assets/dust2-a-1.svg",
+        "titre": "Long + Short → A",
+        "description": "Remplace par tes screens.",
+        "reperes": [
+          { "x": 35, "y": 45, "numero": 1, "titre": "Smoke Cross", "utilitaire": "smoke", "description": "Bloque cross long." },
+          { "x": 60, "y": 50, "numero": 2, "titre": "Smoke CT", "utilitaire": "smoke", "description": "Bloque CT." },
+          { "x": 50, "y": 72, "numero": 3, "titre": "Molotov Goose", "utilitaire": "molotov", "description": "Vide goose." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ancient-a-main",
+    "map": "Ancient",
+    "site": "A",
+    "nom": "Ancient A — Sortie main + donut",
+    "difficulte": "Moyen",
+    "temps": "30s",
+    "joueurs": 5,
+    "description": "Sortie A main : smokes CT + donut + temple, molotov pit, flashs main. Contrôle mid avant go.",
+    "utilitaires": { "smoke": 3, "flash": 3, "molotov": 1, "he": 1 },
+    "etapes": ["4 main / 1 donut.", "Smokes CT + donut + temple.", "Molotov pit + flashs.", "Go, plant temple."],
+    "images": [
+      {
+        "src": "assets/ancient-a-1.svg",
+        "titre": "Main + Donut → A",
+        "description": "Remplace par tes screens.",
+        "reperes": [
+          { "x": 40, "y": 50, "numero": 1, "titre": "Smoke CT", "utilitaire": "smoke", "description": "Bloque CT." },
+          { "x": 60, "y": 42, "numero": 2, "titre": "Smoke Donut", "utilitaire": "smoke", "description": "Bloque donut." },
+          { "x": 50, "y": 72, "numero": 3, "titre": "Molotov Pit", "utilitaire": "molotov", "description": "Vide pit." }
+        ]
+      }
+    ]
   }
 ]
