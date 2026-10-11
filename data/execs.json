@@ -152,5 +152,107 @@
         ]
       }
     ]
+  },
+  {
+    "id": "cache-a-default",
+    "map": "Cache",
+    "site": "A",
+    "nom": "Cache A — Exec main + sunroom",
+    "difficulte": "Moyen",
+    "temps": "30s",
+    "joueurs": 5,
+    "description": "Exec A classique : smokes A main + sunroom + CT, molotov electric / default, flashs sortie. 4 main + 1 sunroom.",
+    "utilitaires": { "smoke": 3, "flash": 3, "molotov": 2, "he": 0 },
+    "etapes": [
+      "4 A main / 1 sunroom.",
+      "T-0:25 smokes sunroom + CT.",
+      "T-0:15 molotov electric + flashs main.",
+      "Go : sunroom sort sur flash, plant default."
+    ],
+    "images": [
+      {
+        "src": "assets/cache-a-1.svg",
+        "titre": "Main + Sunroom → A",
+        "description": "Remplace par tes screens.",
+        "reperes": [
+          { "x": 30, "y": 42, "numero": 1, "titre": "Smoke Sunroom", "utilitaire": "smoke", "description": "Depuis A main, bloque sunroom." },
+          { "x": 58, "y": 60, "numero": 2, "titre": "Smoke CT", "utilitaire": "smoke", "description": "Bloque rotation CT." },
+          { "x": 52, "y": 75, "numero": 3, "titre": "Molotov Electric", "utilitaire": "molotov", "description": "Vide electric box." },
+          { "x": 68, "y": 40, "numero": 4, "titre": "Flash Sortie", "utilitaire": "flash", "description": "Pop-flash main pour go." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cache-b-vents",
+    "map": "Cache",
+    "site": "B",
+    "nom": "Cache B — Sortie vents + checkers",
+    "difficulte": "Moyen",
+    "temps": "30s",
+    "joueurs": 5,
+    "description": "Sortie B par vents : smokes CT + back site, molotov checkers, flashs vents. Timing drop vent synchro.",
+    "utilitaires": { "smoke": 2, "flash": 3, "molotov": 2, "he": 1 },
+    "etapes": ["3 vents / 2 B main.", "Drop vent synchro T-0:20.", "Smokes CT + back, molotov checkers.", "Flashs + go, plant tête."],
+    "images": [
+      {
+        "src": "assets/cache-b-1.svg",
+        "titre": "Vents → B",
+        "description": "Remplace par tes screens.",
+        "reperes": [
+          { "x": 35, "y": 42, "numero": 1, "titre": "Smoke CT", "utilitaire": "smoke", "description": "Bloque CT." },
+          { "x": 60, "y": 62, "numero": 2, "titre": "Molotov Checkers", "utilitaire": "molotov", "description": "Vide checkers." },
+          { "x": 45, "y": 75, "numero": 3, "titre": "Flash Vents", "utilitaire": "flash", "description": "Flash sortie vents." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anubis-a-palace",
+    "map": "Anubis",
+    "site": "A",
+    "nom": "Anubis A — Exec palace + mid",
+    "difficulte": "Moyen",
+    "temps": "30s",
+    "joueurs": 5,
+    "description": "Exec A : smokes heaven + CT + connector, molotov default, flashs palace. Prise mid puis go synchro.",
+    "utilitaires": { "smoke": 3, "flash": 3, "molotov": 2, "he": 0 },
+    "etapes": ["3 palace / 2 mid.", "Smokes heaven + CT + connector.", "Molotov default + flashs.", "Go, plant palace."],
+    "images": [
+      {
+        "src": "assets/anubis-a-1.svg",
+        "titre": "Palace + Mid → A",
+        "description": "Remplace par tes screens.",
+        "reperes": [
+          { "x": 62, "y": 40, "numero": 1, "titre": "Smoke Heaven", "utilitaire": "smoke", "description": "Bloque heaven." },
+          { "x": 40, "y": 55, "numero": 2, "titre": "Smoke CT", "utilitaire": "smoke", "description": "Bloque CT." },
+          { "x": 52, "y": 72, "numero": 3, "titre": "Molotov Default", "utilitaire": "molotov", "description": "Vide default." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anubis-b-tunnels",
+    "map": "Anubis",
+    "site": "B",
+    "nom": "Anubis B — Sortie tunnels + eau",
+    "difficulte": "Difficile",
+    "temps": "35s",
+    "joueurs": 5,
+    "description": "Sortie B eau + tunnels : smokes CT + portes, molotovs pillar + back, flashs eau. Lurk mid conseillé.",
+    "utilitaires": { "smoke": 3, "flash": 2, "molotov": 2, "he": 1 },
+    "etapes": ["4 eau/tunnels + 1 lurk mid.", "Smokes CT + portes.", "Molotovs pillar + back.", "Flashs + go, plant eau."],
+    "images": [
+      {
+        "src": "assets/anubis-b-1.svg",
+        "titre": "Eau + Tunnels → B",
+        "description": "Remplace par tes screens.",
+        "reperes": [
+          { "x": 60, "y": 42, "numero": 1, "titre": "Smoke CT", "utilitaire": "smoke", "description": "Bloque CT." },
+          { "x": 35, "y": 55, "numero": 2, "titre": "Smoke Portes", "utilitaire": "smoke", "description": "Bloque portes." },
+          { "x": 50, "y": 72, "numero": 3, "titre": "Molotov Pillar", "utilitaire": "molotov", "description": "Vide pillar." }
+        ]
+      }
+    ]
   }
 ]
