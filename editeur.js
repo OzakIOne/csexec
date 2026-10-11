@@ -11,7 +11,7 @@ function refresh() {
     el.className = "dot " + r.utilitaire;
     el.style.left = r.x + "%";
     el.style.top = r.y + "%";
-    el.textContent = r.numero;
+    el.innerHTML = `<span class="n">${r.numero}</span>`;
     el.title = r.titre;
     stage.appendChild(el);
   });

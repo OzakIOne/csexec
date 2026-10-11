@@ -29,7 +29,7 @@ async function init() {
         <p class="desc">${img.description||""}</p>
         <div class="stage" data-shot="${i}">
           <img src="${img.src}" alt="${img.titre}">
-          ${(img.reperes||[]).map((r) => `<div class="dot ${r.utilitaire||"info"}" style="left:${r.x}%;top:${r.y}%" data-t="${r.titre}" data-d="${r.description||""}" title="${r.titre}">${r.numero}</div>`).join("")}
+          ${(img.reperes||[]).map((r) => `<div class="dot ${r.utilitaire||"info"}" style="left:${r.x}%;top:${r.y}%" data-t="${r.titre}" data-d="${r.description||""}" title="${r.titre}"><span class="n">${r.numero}</span></div>`).join("")}
         </div>
         <div class="repere-info" hidden></div>
       </div>`).join("")}
