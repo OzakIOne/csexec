@@ -1,0 +1,156 @@
+[
+  {
+    "id": "mirage-a-default",
+    "map": "Mirage",
+    "site": "A",
+    "nom": "Mirage A — Exec de base (CT + Jungle + Escalier)",
+    "difficulte": "Facile",
+    "temps": "25s",
+    "joueurs": 5,
+    "description": "Exec standard site A : smokes CT / Jungle / Escalier, flashs palace + rampe, molotov jungle. Prise ticket + palace synchro.",
+    "utilitaires": { "smoke": 3, "flash": 4, "molotov": 2, "he": 0 },
+    "etapes": [
+      "2 Ticket / 2 Palace / 1 Mid (fenêtre + connecteur).",
+      "T-0:25 smokes CT + Jungle + Escalier.",
+      "T-0:15 molotov Jungle + Sandwich, flashs Palace.",
+      "Go : 1er palace check jungle, 2e plant ticket, mid arrive CT."
+    ],
+    "images": [
+      {
+        "src": "assets/mirage-a-1.svg",
+        "titre": "Positions sur site",
+        "description": "Clique les numéros pour le détail de chaque lancer.",
+        "reperes": [
+          { "x": 30, "y": 35, "numero": 1, "titre": "Smoke CT", "utilitaire": "smoke", "description": "Depuis ticket, aligné antenne. Bloque CT." },
+          { "x": 55, "y": 45, "numero": 2, "titre": "Smoke Jungle", "utilitaire": "smoke", "description": "Depuis rampe, vise haut mur. Bloque jungle." },
+          { "x": 72, "y": 60, "numero": 3, "titre": "Smoke Escalier", "utilitaire": "smoke", "description": "Depuis palace, rebond mur gauche." },
+          { "x": 50, "y": 75, "numero": 4, "titre": "Molotov Jungle", "utilitaire": "molotov", "description": "Nettoie jungle avant go." }
+        ]
+      },
+      {
+        "src": "assets/mirage-a-2.svg",
+        "titre": "Spots de lancers",
+        "description": "Où se placer pour lancer sans être vu.",
+        "reperes": [
+          { "x": 25, "y": 55, "numero": 1, "titre": "Lanceur Ticket", "utilitaire": "info", "description": "2 joueurs ticket : 1 smoke CT + 1 flash." },
+          { "x": 78, "y": 40, "numero": 2, "titre": "Lanceur Palace", "utilitaire": "info", "description": "2 joueurs palace : smokes + sortie." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mirage-b-rush",
+    "map": "Mirage",
+    "site": "B",
+    "nom": "Mirage B — Rush apparts + arches",
+    "difficulte": "Facile",
+    "temps": "20s",
+    "joueurs": 5,
+    "description": "Rush B rapide : smoke fenêtre + porte, molotov bench, flashs apparts. Exemple à remplacer par tes screens.",
+    "utilitaires": { "smoke": 2, "flash": 2, "molotov": 1, "he": 1 },
+    "etapes": ["5 apparts.", "Smoke fenêtre + porte.", "Flashs + molotov bench.", "Go, plant fermé."],
+    "images": [
+      {
+        "src": "assets/mirage-b-1.svg",
+        "titre": "Site B",
+        "description": "Repères rush B.",
+        "reperes": [
+          { "x": 40, "y": 40, "numero": 1, "titre": "Smoke Fenêtre", "utilitaire": "smoke", "description": "Bloque vue fenêtre." },
+          { "x": 60, "y": 65, "numero": 2, "titre": "Molotov Bench", "utilitaire": "molotov", "description": "Vide le bench." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "inferno-b-banane",
+    "map": "Inferno",
+    "site": "B",
+    "nom": "Inferno B — Contrôle banane + exec",
+    "difficulte": "Moyen",
+    "temps": "35s",
+    "joueurs": 5,
+    "description": "Prise banane : molotovs sable + cercueil, smokes CT + cercueil, flashs site. Plant banane.",
+    "utilitaires": { "smoke": 2, "flash": 3, "molotov": 3, "he": 1 },
+    "etapes": ["2-3 banane, 2 mid/apparts leurre.", "Molotovs sable + cercueil T-0:30.", "Smokes CT + cercueil.", "Flashs + go, plant fond."],
+    "images": [
+      {
+        "src": "assets/inferno-b-1.svg",
+        "titre": "Banane → Site B",
+        "description": "Modifie avec l'éditeur de repères.",
+        "reperes": [
+          { "x": 30, "y": 40, "numero": 1, "titre": "Molotov Sable", "utilitaire": "molotov", "description": "Nettoie sable." },
+          { "x": 58, "y": 62, "numero": 2, "titre": "Smoke CT", "utilitaire": "smoke", "description": "Bloque CT." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nuke-a-toit",
+    "map": "Nuke",
+    "site": "A",
+    "nom": "Nuke A — Sortie toit + lobby",
+    "difficulte": "Moyen",
+    "temps": "30s",
+    "joueurs": 5,
+    "description": "Exec toit : smokes garages + hell, molotov vent, flashs sortie. Exemple modifiable.",
+    "utilitaires": { "smoke": 3, "flash": 2, "molotov": 1, "he": 0 },
+    "etapes": ["4 toit + 1 lobby.", "Smokes garages + hell.", "Flashs sortie.", "Go hut + plant."],
+    "images": [
+      {
+        "src": "assets/nuke-a-1.svg",
+        "titre": "Toit → A",
+        "description": "Remplace l'image par ton screen toit.",
+        "reperes": [
+          { "x": 35, "y": 45, "numero": 1, "titre": "Smoke Garage", "utilitaire": "smoke", "description": "Bloque garage." },
+          { "x": 62, "y": 60, "numero": 2, "titre": "Flash Sortie", "utilitaire": "flash", "description": "Aveugle site." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dust2-b-tunnels",
+    "map": "Dust2",
+    "site": "B",
+    "nom": "Dust2 B — Sortie tunnels",
+    "difficulte": "Facile",
+    "temps": "20s",
+    "joueurs": 5,
+    "description": "Sortie tunnels basse : smokes porte + fenêtre, flashs tunnels, molotov big box.",
+    "utilitaires": { "smoke": 2, "flash": 3, "molotov": 1, "he": 0 },
+    "etapes": ["5 tunnels bas.", "Smokes porte + fenêtre.", "Flashs + go.", "Plant porte."],
+    "images": [
+      {
+        "src": "assets/dust2-b-1.svg",
+        "titre": "Tunnels → B",
+        "description": "Exemple simple.",
+        "reperes": [
+          { "x": 38, "y": 42, "numero": 1, "titre": "Smoke Porte", "utilitaire": "smoke", "description": "Bloque porte." },
+          { "x": 60, "y": 62, "numero": 2, "titre": "Flash Tunnels", "utilitaire": "flash", "description": "Pop-flash sortie." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ancient-b-mid",
+    "map": "Ancient",
+    "site": "B",
+    "nom": "Ancient B — Split mid + cave",
+    "difficulte": "Difficile",
+    "temps": "35s",
+    "joueurs": 5,
+    "description": "Split B : smokes CT + donut, molotovs temple, flashs cave. Timing synchro mid/cave.",
+    "utilitaires": { "smoke": 3, "flash": 3, "molotov": 2, "he": 1 },
+    "etapes": ["2 cave + 3 mid.", "Smokes CT + donut.", "Flashs + molotovs.", "Go synchro, plant fermé."],
+    "images": [
+      {
+        "src": "assets/ancient-b-1.svg",
+        "titre": "Mid + Cave → B",
+        "description": "Exemple à compléter.",
+        "reperes": [
+          { "x": 32, "y": 45, "numero": 1, "titre": "Smoke CT", "utilitaire": "smoke", "description": "Bloque CT." },
+          { "x": 60, "y": 65, "numero": 2, "titre": "Molotov Temple", "utilitaire": "molotov", "description": "Vide temple." }
+        ]
+      }
+    ]
+  }
+]

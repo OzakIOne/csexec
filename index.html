@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS Execs — Exécutions de sites</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>CS EXECS</h1>
+<p class="sub">Fiches d'exécution de sites — Counter-Strike 2</p>
+<nav><a href="index.html" class="active">Execs</a><a href="editeur.html">Éditeur de repères</a></nav>
+</header>
+<main>
+<section class="controls">
+<input id="q" type="search" placeholder="Chercher : mirage A, smoke CT, anti-eco…" autocomplete="off">
+<div id="maps" class="pills"></div>
+<div id="sites" class="pills small"></div>
+</section>
+<p id="count" class="count"></p>
+<section id="list" class="grid"></section>
+</main>
+<footer><p>Site statique GitHub Pages — modifie <code>data/execs.json</code> + images dans <code>assets/</code>.</p></footer>
+<script src="app.js"></script>
+</body>
+</html>

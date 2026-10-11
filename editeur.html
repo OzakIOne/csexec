@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Éditeur de repères — CS Execs</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1><a href="index.html">← CS EXECS</a></h1>
+<p class="sub">Clique sur l'image pour poser un repère, puis exporte le JSON.</p>
+<nav><a href="index.html">Execs</a><a href="editeur.html" class="active">Éditeur de repères</a></nav>
+</header>
+<main class="editor-layout">
+<section class="panel">
+<label>1. Image (fichier local ou URL)
+<input type="file" id="file" accept="image/*,.svg">
+<input type="text" id="url" placeholder="ou colle une URL : assets/mirage-a-1.svg">
+<button id="loadUrl">Charger</button>
+</label>
+<label>2. Titre du repère <input type="text" id="rTitre" placeholder="Smoke CT"></label>
+<label>Utilitaire
+<select id="rUtil"><option value="smoke">smoke</option><option value="flash">flash</option><option value="molotov">molotov</option><option value="he">he</option><option value="info">info</option></select>
+</label>
+<label>Détail <input type="text" id="rDesc" placeholder="Aligné ticket, vise antenne…"></label>
+<div class="row"><button id="undo">Annuler dernier</button><button id="clear">Tout effacer</button></div>
+</section>
+<section class="panel wide">
+<div id="stage" class="stage"><span class="hint">Charge une image, puis clique dessus pour poser un repère.</span><img id="img" alt="" hidden></div>
+<label>JSON des repères <textarea id="out" rows="10" readonly></textarea></label>
+<button id="copy">Copier le JSON</button>
+<p class="mini">Colle ensuite dans <code>data/execs.json</code> → <code>images[].reperes</code> avec x/y en %.</p>
+</section>
+</main>
+<script src="editeur.js"></script>
+</body>
+</html>
